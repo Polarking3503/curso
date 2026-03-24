@@ -6,7 +6,6 @@ partial class Program
         string nombre = "Jorge";
         bool esEstudiante = false;
 
-        Console.WriteLine($"Nombre: {nombre} tiene una edad {edad} es estuduante {esEstudiante}");
-
+        Console.WriteLine($"Nombre: {nombre} tiene una edad {edad} es estudiante {esEstudiante}");
     }
 }

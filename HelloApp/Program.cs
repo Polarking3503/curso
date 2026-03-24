@@ -3,5 +3,5 @@
     static void Main(string[] args)
     {
         Variables();
-;    }
+    }
 }
