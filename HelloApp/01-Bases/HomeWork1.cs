@@ -12,4 +12,24 @@ partial class Program
         Console.WriteLine($"Precio unitario: {unitPrice:C}");
         Console.WriteLine($"Monto total: {totalAmount:C}");
     }
+
+    // 🏆 Ejercicio:
+    // Crear un programa que calcule el salario mensual de un trabajador
+    // - Pedir al usuario su nombre, horas trabajadas y tarifa por hora
+    // - Calcular el sueldo y mostrarlo en pantalla
+
+    static void SalaryCalculator2()
+    {
+        Console.WriteLine("Calculadora de salario");
+        Console.WriteLine();
+        Console.Write("Ingrese su nombre: ");
+        string? name = Console.ReadLine();
+        Console.Write("Ingrese el número de horas trabajadas: ");
+        double hours = double.Parse(Console.ReadLine()!);
+        Console.Write("Ingrese el salario por hora: ");
+        double rate = double.Parse(Console.ReadLine()!);
+        double salary = hours * rate;
+        Console.WriteLine($"El salario para {name} es de {salary}");
+
+    }
 }
