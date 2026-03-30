@@ -5,6 +5,7 @@
         // Variables();
         // DataTypes();
         // ShowNumericTypes();
-        ShowStringType();
+        // ShowStringType();
+        SaleReport();
     }
 }
