@@ -7,5 +7,6 @@
         // ShowNumericTypes();
         // ShowStringType();
         // SaleReport();
-        SalaryCalculator();    }
+        SalaryCalculator();
+    }
 }
