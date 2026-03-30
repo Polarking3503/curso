@@ -8,6 +8,7 @@
         // ShowStringType();
         // SaleReport();
         // SalaryCalculator();
-        SalaryCalculator2();
+        // SalaryCalculator2();
+        ShowTime();
     }
 }
