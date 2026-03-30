@@ -6,6 +6,6 @@
         // DataTypes();
         // ShowNumericTypes();
         // ShowStringType();
-        SaleReport();
-    }
+        // SaleReport();
+        SalaryCalculator();    }
 }
