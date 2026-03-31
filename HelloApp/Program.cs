@@ -9,6 +9,7 @@
         // SaleReport();
         // SalaryCalculator();
         // SalaryCalculator2();
-        ShowTime();
+        // ShowTime();
+        DaysOfLife();
     }
 }
