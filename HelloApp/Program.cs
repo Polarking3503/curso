@@ -11,6 +11,7 @@
         // SalaryCalculator2();
         // ShowTime();
         // DaysOfLife();
-        DaysUntilNextBirthday();
+        // DaysUntilNextBirthday();
+        TypeDifference();
     }
 }
