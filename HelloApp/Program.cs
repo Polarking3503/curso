@@ -14,6 +14,7 @@
         // DaysUntilNextBirthday();
         // TypeDifference();
         // HandleNullables();
-        Operators();
+        // Operators();
+        Arrays();
     }
 }
