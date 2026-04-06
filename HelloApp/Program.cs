@@ -12,6 +12,7 @@
         // ShowTime();
         // DaysOfLife();
         // DaysUntilNextBirthday();
-        TypeDifference();
+        // TypeDifference();
+        HandleNullables();
     }
 }
