@@ -16,6 +16,7 @@
         // HandleNullables();
         // Operators();
         // Arrays();
-        InventoryManager();
+        // InventoryManager();
+        ListDictonary();
     }
 }
