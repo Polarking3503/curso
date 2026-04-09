@@ -31,7 +31,8 @@
     // ConvertionToDateTime();
     // Functions();
     // PrintMultiplicationTable(7, 15);
-    PrintFactorialTable(5);
+    // PrintFactorialTable(5);
+    Tuples();
     #endregion
   }
 }
