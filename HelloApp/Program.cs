@@ -21,8 +21,11 @@
     // DataStructures();
     // Generics();
     #endregion
+    #region Sección2
     // Conditionals();
     // Loops();
-    FizzBuzz();
+    // FizzBuzz();
+    LoopControlExamples();
+    #endregion
   }
 }
