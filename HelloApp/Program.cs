@@ -22,6 +22,7 @@
     // Generics();
     #endregion
     // Conditionals();
-    Loops();
+    // Loops();
+    FizzBuzz();
   }
 }
