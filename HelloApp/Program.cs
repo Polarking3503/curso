@@ -21,6 +21,7 @@
     // DataStructures();
     // Generics();
     #endregion
-    Conditionals();
+    // Conditionals();
+    Loops();
   }
 }
