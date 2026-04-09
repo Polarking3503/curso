@@ -32,7 +32,8 @@
     // Functions();
     // PrintMultiplicationTable(7, 15);
     // PrintFactorialTable(5);
-    Tuples();
+    // Tuples();
+    AnonymousFunctions();
     #endregion
   }
 }
