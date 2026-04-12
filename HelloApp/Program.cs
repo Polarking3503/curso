@@ -37,7 +37,8 @@
         #endregion
         #region Sección4
         // TestingClass();
-        Properties();
+        // Properties();
+        Methods();
         #endregion
     }
 }
