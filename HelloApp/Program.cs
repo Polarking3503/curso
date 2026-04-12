@@ -38,11 +38,12 @@
         #region Sección4
         // TestingClass();
         // Properties();
-        Methods();
+        // Methods();
         // Forzar la recolecció de basura
-        GC.Collect();
+        // GC.Collect();
         // //Ejecuten los finalizadores
-        GC.WaitForPendingFinalizers();
+        // GC.WaitForPendingFinalizers();
+        ProductSalesDemo();
         #endregion
     }
 }
