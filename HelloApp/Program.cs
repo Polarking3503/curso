@@ -36,7 +36,8 @@
         // AnonymousFunctions();
         #endregion
         #region Sección4
-        TestingClass();
+        // TestingClass();
+        Properties();
         #endregion
     }
 }
