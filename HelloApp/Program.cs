@@ -45,7 +45,8 @@
         // GC.WaitForPendingFinalizers();
         // ProductSalesDemo();
         //  BusFleet();
-        Inheritance();
+        // Inheritance();
+        AbstracClassExamples();
         #endregion
     }
 }
