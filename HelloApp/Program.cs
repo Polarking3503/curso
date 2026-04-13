@@ -48,7 +48,10 @@
         // Inheritance();
         // AbstracClassExamples();
         // Visibility();
-        Employees();
+        // Employees();
+        #endregion
+        #region Sección5
+        HandleException();
         #endregion
     }
 }
