@@ -7,10 +7,31 @@ partial class Program
         Product mouse = new Product("Mouse", 100, 10);
         inventory.AddProduct(laptop);
         inventory.AddProduct(mouse);
-        inventory.ShowInventory();
-        laptop.Sell(1);
-        inventory.ShowInventory();
+        // inventory.ShowInventory();
+        // laptop.Sell(1);
+        // inventory.ShowInventory();
     }
+
+    static void BusFleet()
+    {
+        Bus corolla = new Bus("Toyota", "Corolla", 2020, 300_000, 10_000);
+        Bus honda = new Bus("Honda", "Civic", 2019, 120_000, 8_000);
+        Bus ford = new Bus("Ford", "Fiesta", 2018, 80_000, 7_000);
+
+        Fleet fleet = new();
+        fleet.AddBus(corolla);
+        fleet.AddBus(honda);
+        fleet.AddBus(ford);
+        
+        fleet.ShowBuses();
+        WriteLine("-Despues de manejar los 5000 km-");
+        corolla.Drive(5000);
+        honda.Drive(5000);
+        ford.Drive(5000);
+        fleet.ShowBuses();
+
+    }
+
     class Product
     {
         public string? Name { get; set; }
@@ -56,6 +77,50 @@ partial class Program
             {
                 product.ShowInfo();
             }
+        }
+    }
+}
+
+class Bus
+{
+    public string? Brand { get; set; }
+    public string? Model { get; set; }
+    public int Year { get; set; }
+    public double Price { get; set; }
+    public double TotalKilometers { get; set; }
+
+    public Bus(string brand, string model, int year, double price, double totalKilometers)
+    {
+        Brand = brand;
+        Model = model;
+        Year = year;
+        Price = price;
+        TotalKilometers = totalKilometers;
+    }
+
+    public void Drive(int kilometers)
+    {
+        TotalKilometers += kilometers;
+    }
+
+    public void ShowPrice()
+    {
+        WriteLine($"Precio: {Price:C}");
+    }
+}
+
+class Fleet
+{
+    private List<Bus> buses = new List<Bus>();
+    public void AddBus(Bus bus)
+    {
+        buses.Add(bus);
+    }
+    public void ShowBuses()
+    {
+        foreach (var bus in buses)
+        {
+            WriteLine($"Marca: {bus.Brand}, Modelo {bus.Model}, Año: {bus.Year}, Precio: {bus.Price:C}, Kilometraje: {bus.TotalKilometers}");
         }
     }
 }
