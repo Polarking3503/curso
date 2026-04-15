@@ -55,7 +55,10 @@
         // Collections();
         // Linq();
         // AdvancedLinq.Program.AdvancedLINQ();
-        SalesAnalysis();
+        // SalesAnalysis();
+        #endregion
+        #region Sección6
+        FileExample();
         #endregion
     }
 }
