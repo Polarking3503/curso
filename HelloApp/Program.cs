@@ -52,7 +52,8 @@
         #endregion
         #region Sección5
         // HandleException();
-        Collections();
+        // Collections();
+        Linq();
         #endregion
     }
 }
