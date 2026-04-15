@@ -58,7 +58,8 @@
         // SalesAnalysis();
         #endregion
         #region Sección6
-        FileExample();
+        // FileExample();
+        DirectoryExample();
         #endregion
     }
 }
