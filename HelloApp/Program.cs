@@ -53,7 +53,8 @@
         #region Sección5
         // HandleException();
         // Collections();
-        Linq();
+        // Linq();
+        AdvancedLinq.Program.AdvancedLINQ();
         #endregion
     }
 }
