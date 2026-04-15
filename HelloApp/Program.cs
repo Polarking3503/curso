@@ -54,7 +54,8 @@
         // HandleException();
         // Collections();
         // Linq();
-        AdvancedLinq.Program.AdvancedLINQ();
+        // AdvancedLinq.Program.AdvancedLINQ();
+        SalesAnalysis();
         #endregion
     }
 }
