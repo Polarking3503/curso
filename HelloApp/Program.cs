@@ -59,7 +59,8 @@
         #endregion
         #region Sección6
         // FileExample();
-        DirectoryExample();
+        // DirectoryExample();
+        PathExample();
         #endregion
     }
 }
