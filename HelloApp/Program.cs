@@ -60,7 +60,8 @@
         #region Sección6
         // FileExample();
         // DirectoryExample();
-        PathExample();
+        // PathExample();
+        WriteFileExample();
         #endregion
     }
 }
