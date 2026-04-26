@@ -2,6 +2,6 @@
 {
     static void Main(string[] args)
     {
-        exercise();
+        Exercise2();
     }
 }
