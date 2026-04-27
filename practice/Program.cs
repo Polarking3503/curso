@@ -2,6 +2,7 @@
 {
     static void Main(string[] args)
     {
-        Exercise2();
+        // Exercise2();
+        Sales();
     }
 }
